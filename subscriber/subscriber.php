@@ -3,10 +3,10 @@
     // Connect to the Bluehost database for subscribers
     function subscriber_db() {
         $port = '3306';
-        $dbname = 'avrgnine_subscribers';
+        $dbname = '';
         $db_connect = "mysql:host=localhost:$port;dbname=$dbname";
-        $username = 'avrgnine_350';
-        $password = 'password';
+        $username = '';
+        $password = '';
         return new PDO($db_connect, $username, $password);
     }
 
