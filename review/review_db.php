@@ -130,9 +130,9 @@
 
     // Connect to the Bluehost database
     function bluehost_connect() {
-        $dbname = 'avrgnine_notes';
-        $username = 'avrgnine_350';
-        $password = 'password';
+        $dbname = '';
+        $username = '';
+        $password = '';
         $port = '3306';
         $host = "localhost:$port";
         return review_database($host, $dbname, $username, $password);
