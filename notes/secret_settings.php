@@ -1,7 +1,7 @@
 <?php
-    $dbname = 'avrgnine_notes';
-    $username = 'avrgnine_350';
-    $password = 'password';
+    $dbname = 's';
+    $username = '0';
+    $password = 'd';
     $port = '3306';
     $host = "localhost:$port";
 ?>
